@@ -2,9 +2,15 @@
 
 Make openssl certificates.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-openssl.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-openssl)|[![github](https://github.com/robertdebock/ansible-role-openssl/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-openssl/actions)|[![quality](https://img.shields.io/ansible/quality/48939)](https://galaxy.ansible.com/robertdebock/openssl)|[![downloads](https://img.shields.io/ansible/role/d/48939)](https://galaxy.ansible.com/robertdebock/openssl)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-openssl.svg)](https://github.com/robertdebock/ansible-role-openssl/releases/)|
+** FORKED FROM Robert Debock repo **
+
+## Why ?
+Assets are not functionnal. I try to replace by **quiet: true** like [Ansible module asset documentation](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/assert_module.html)
+
+Finaly, I replaced quiet: true by msg: "Assets get hungry"...
+
+I know, I was in a hurry...
+
 
 ## [Example Playbook](#example-playbook)
 
